@@ -1,3 +1,13 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Nathan Johannes | Computer Science Portfolio
+description: Computer Science Capstone ePortfolio - SNHU
+theme: minima
+author:
+  name: Nathan Johannes
+
+header_pages:
+  - about.md
+  - projects.md
+  - code-review.md
+  - self-assessment.md
+
+markdown: kramdown
