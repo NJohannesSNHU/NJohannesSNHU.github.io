@@ -1,0 +1,60 @@
+
+---
+---
+
+@import "minima";
+
+/* Portfolio color scheme */
+$navy: #172554;
+$teal: #0D9488;
+$blue: #38BDF8;
+
+/* Header */
+.site-header {
+  background-color: $navy;
+  border-top: 4px solid $teal;
+  border-bottom: 1px solid $navy;
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link {
+  color: #FFFFFF !important;
+}
+
+.site-nav .page-link:hover {
+  color: $blue !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: $navy;
+}
+
+h2 {
+  border-bottom: 2px solid $teal;
+  padding-bottom: 6px;
+}
+
+/* Links */
+a,
+a:visited {
+  color: $teal;
+}
+
+a:hover {
+  color: $navy;
+}
+
+/* Buttons and interactive elements */
+button,
+.btn {
+  background-color: $teal;
+  color: #FFFFFF;
+  border-radius: 6px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 3px solid $teal;
+}
